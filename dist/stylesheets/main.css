@@ -228,10 +228,12 @@ section {
   min-height: 30px;
 }
 section h5,
+section h4,
 section ul {
   text-align: center;
 }
 section h5 li,
+section h4 li,
 section ul li {
   line-height: 1.625rem;
   font-size: 1rem;
@@ -241,6 +243,11 @@ section h5 {
   margin-bottom: 1.0625rem;
   font-weight: bold;
   font-size: 1.625rem;
+}
+section h4 {
+  margin: 0.875rem 0;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 section img {
   width: 15.625rem;

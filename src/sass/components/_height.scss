@@ -4,6 +4,7 @@ section {
     // border: 1px solid red;
     min-height: 30px;
     h5,
+    h4,
     ul {
         text-align: center;
         li {
@@ -16,6 +17,11 @@ section {
         margin-bottom: fontSize(17);
         font-weight: bold;
         font-size: fontSize(26);
+    }
+    h4 {
+        margin: fontSize(14) 0;
+        font-weight: bold;
+        font-size: fontSize(18);
     }
     img {
         width: fontSize(250);
