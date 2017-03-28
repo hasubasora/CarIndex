@@ -265,11 +265,12 @@ section .divBox .btnGunter input {
   height: 3.0625rem;
   line-height: 3.0625rem;
   width: 11.875rem;
-  border: 1px solid #666 !important;
+  border: 1px solid #f23030 !important;
   background: #f6f6f6;
   border-radius: 5px;
   font-size: 1.125rem;
   text-indent: 2.5rem;
+  color: #f23030;
 }
 section .divBox .btnGunter span {
   display: block;
@@ -278,8 +279,13 @@ section .divBox .btnGunter span {
   background-size: cover;
   position: absolute;
   top: 0.625rem;
-  left: 1.875rem;
+  left: 2.0625rem;
   background-image: url("../images/ad.png");
+  color: #f23030;
+}
+section .divBox .btnGunter:nth-child(2) input {
+  border: 1px solid #fdb933 !important;
+  color: #fdb933;
 }
 section .divBox .btnGunter:nth-child(2) span {
   width: 1.4375rem;
