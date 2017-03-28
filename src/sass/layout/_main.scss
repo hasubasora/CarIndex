@@ -12,6 +12,17 @@ gutter-position:inside //位置
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+// 苹果样式
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea {
+    -webkit-appearance: none;
+}
+
 html,
 body {
     font-family: $fontFamily;

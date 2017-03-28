@@ -125,6 +125,16 @@ a:hover {
   -webkit-tap-highlight-color: transparent;
 }
 
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  -webkit-appearance: none;
+}
+
+textarea {
+  -webkit-appearance: none;
+}
+
 html,
 body {
   font-family: "微软雅黑";

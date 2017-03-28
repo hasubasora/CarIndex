@@ -17,7 +17,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('default', ['jshint'], function() {
-    gulp.start('minifyjs');
+    // gulp.start('');
     return runSequence(['clean'], ['build'], ['serve', 'watch'], ['fileinclude']);
 });
 
@@ -26,7 +26,7 @@ gulp.task('clean', function(callback) {
 });
 
 gulp.task('build', function(callback) {
-    return runSequence(['compass', 'staticFiles'], callback);
+    return runSequence(['compass', 'minifyjs', 'staticFiles'], callback);
 });
 
 gulp.task('compass', function() {
